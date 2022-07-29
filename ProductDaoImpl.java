@@ -58,6 +58,7 @@ public class ProductDaoImpl {
 			}
 		}
 	}
+	
 	public void viewProduct(int pno) {
 		if(pno<=3 && pno>0)
 		System.out.println(productList[pno-1]);
